@@ -40,7 +40,7 @@ class DilatedResBlock(nn.Module):
     input -> building_block -> building_block -> + -> output
           ↘ -----------(shortcut)------------- ↗
     """
-    def __init__(self, in_ch, out_ch, dilation, shortcut=None):
+    def __init__(self, in_ch, out_ch, dilation=1, shortcut=None):
         super(DilatedResBlock, self).__init__()
         self.left = nn.Sequential(
             BuildingBlock(in_ch, out_ch, dilation),
@@ -82,7 +82,7 @@ class Head(nn.Module):
         super(Head, self).__init__()
         self.process = nn.Sequential(
             BuildingBlock(in_ch, out_ch, dilation),
-            DilatedResBlock(out_ch, dilation)
+            DilatedResBlock(out_ch, out_ch, dilation, None)
         )
 
     def forward(self, input):
@@ -93,8 +93,8 @@ class Down(nn.Module):
     """
     input -> max_pool -> head -> output
     """
-    def __int__(self, in_ch, out_ch, dilation=1):
-        super(Down, self).__int__()
+    def __init__(self, in_ch, out_ch, dilation=1):
+        super(Down, self).__init__()
         self.down_sample = nn.Sequential(
             nn.MaxPool2d(2),
             Head(in_ch, out_ch, dilation)
