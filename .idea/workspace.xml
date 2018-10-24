@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8738abbf-f1b7-4b93-9224-cf3758b2199e" name="Default Changelist" comment="" />
+    <list default="true" id="8738abbf-f1b7-4b93-9224-cf3758b2199e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/hd_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/hd_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/modules.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,45 +27,51 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="md" value="2" />
           <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Markdown" value="2" />
           <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2336" />
+          <entry key="md" value="3" />
+          <entry key="py" value="4455" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2336" />
+          <entry key="Markdown" value="3" />
+          <entry key="Python" value="4455" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/modules.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+            <state relative-caret-position="328">
+              <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
               <folding>
                 <element signature="e#15#27#0" expanded="true" />
-                <marker date="1540301373320" expanded="true" signature="2148:2153" ph="..." />
+                <marker date="1540364311947" expanded="true" signature="615:882" ph="..." />
+                <marker date="1540364311947" expanded="true" signature="3277:3282" ph="..." />
+                <marker date="1540364311947" expanded="true" signature="4030:4893" ph="..." />
               </folding>
             </state>
           </provider>
@@ -68,24 +80,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/hd_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+            <state relative-caret-position="508">
+              <caret line="31" column="100" selection-start-line="31" selection-start-column="100" selection-end-line="31" selection-end-column="100" />
               <folding>
-                <marker date="1540300279798" expanded="true" signature="66:71" ph="..." />
-                <marker date="1540300279798" expanded="true" signature="924:933" ph="..." />
+                <marker date="1540364311877" expanded="true" signature="66:71" ph="..." />
+                <marker date="1540364311877" expanded="true" signature="1163:1172" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/model/hd_net.py" />
-        <option value="$PROJECT_DIR$/model/modules.py" />
         <option value="$PROJECT_DIR$/model/__init__.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/model/modules.py" />
+        <option value="$PROJECT_DIR$/model/hd_net.py" />
       </list>
     </option>
   </component>
@@ -100,6 +126,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -160,7 +189,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -174,7 +203,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -190,32 +219,42 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/model/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/hd_net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        <state relative-caret-position="508">
+          <caret line="31" column="100" selection-start-line="31" selection-start-column="100" selection-end-line="31" selection-end-column="100" />
           <folding>
-            <marker date="1540300279798" expanded="true" signature="66:71" ph="..." />
-            <marker date="1540300279798" expanded="true" signature="924:933" ph="..." />
+            <marker date="1540364311877" expanded="true" signature="66:71" ph="..." />
+            <marker date="1540364311877" expanded="true" signature="1163:1172" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/modules.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+        <state relative-caret-position="328">
+          <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
           <folding>
             <element signature="e#15#27#0" expanded="true" />
-            <marker date="1540301373320" expanded="true" signature="2148:2153" ph="..." />
+            <marker date="1540364311947" expanded="true" signature="615:882" ph="..." />
+            <marker date="1540364311947" expanded="true" signature="3277:3282" ph="..." />
+            <marker date="1540364311947" expanded="true" signature="4030:4893" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
